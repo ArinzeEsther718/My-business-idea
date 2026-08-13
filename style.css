@@ -1,0 +1,46 @@
+/* This is my css file */
+
+body {
+    font-family: 'Times New Roman', Sans-Serif; /* simple font */
+    background-color: #f0f0f0; /* light gray background */
+    padding: 15px;
+}
+
+/* Make all sections look like boxes */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px; /* round corners */
+}
+
+/* Main heading */
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Other headings */
+h2 {
+    color: darkblue;
+    border-bottom: 2px solid yellow; /* yellow line under it */
+    padding-bottom: 5px;
+}
+
+/* Paragraph text */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Hero section special color */
+.hero {
+    background-color: darkblue;
+    color: white;
+}
+
+/* Make list numbers look nice */
+ol {
+    margin-left: 20px;
+}
