@@ -1,4 +1,4 @@
-/* THIS IS MY CSS FILE – UPDATED FOR STUDIFY */
+/* THIS IS MY CSS FILE - UPDATED FOR STUDIFY */
 
 /* GENERAL */
 body {
@@ -68,7 +68,6 @@ section {
     background-color: white;
     padding: 40px 20px;
     margin-bottom: 15px;
-    border-radius: 8px; /* round corners */
 }
 
 .section {
@@ -107,9 +106,7 @@ p {
 .hero {
     background-color: darkblue;
     color: white;
-    padding: 80px 20px;
     text-align: center;
-    border-radius: 8px;
 }
 
 .hero h1 {
@@ -186,4 +183,13 @@ ol {
     .brand img {
         height: 40px;
     }
+}
+
+
+/* HERO SECTION SPECIAL COLOR */
+.hero {
+    background-color: blue;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
 }
