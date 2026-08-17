@@ -104,8 +104,9 @@ p {
 
 /* HERO SECTION SPECIAL COLOR */
 .hero {
-    background-color: darkblue;
+    background-color: blue;
     color: white;
+    padding: 80px 20px;
     text-align: center;
 }
 
@@ -185,11 +186,77 @@ ol {
     }
 }
 
+/* SDG SECTION */
+.sdg-box {
+  padding: 40px 30px;
+  background: #e9ecef; 
+  border: 2px solid #ffc107; 
+  border-radius: 12px;
+  text-align: center; /* centers all text */
+}
 
-/* HERO SECTION SPECIAL COLOR */
-.hero {
-    background-color: blue;
-    color: white;
-    padding: 80px 20px;
-    text-align: center;
+.sdg-box h2 {
+  color: darkblue;
+  border-bottom: 2px solid #ffc107;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.sdg-logo {
+  width: 90px; 
+  max-width: 100%; /* so it never overflows on small screens */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto; /* centers the logo */
+}
+
+/* WHAT WE OFFER + WHY CHOOSE US CARDS */
+.offer-grid, .why-grid {
+  display: grid;
+  gap: 25px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+/* Mobile: 1 card per row */
+.offer-grid, .why-grid {
+  grid-template-columns: 1fr;
+}
+
+/* Tablet/Desktop: 2 or 4 cards per row */
+@media (min-width: 768px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards */
+  }
+}
+@media (min-width: 1024px) {
+  .offer-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 cards for What We Offer */
+  }
+}
+
+.offer-card, .why-item {
+  background: white;
+  padding: 25px 20px;
+  border-radius: 12px;
+  border-top: 4px solid #ffc107; /* yellow top border to match your brand */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.offer-card:hover, .why-item:hover {
+  transform: translateY(-5px); /* little lift effect */
+}
+
+.offer-card h3, .why-item h3 {
+  color: darkblue;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.offer-card p, .why-item p {
+  color: #555;
+  font-size: 15px;
+  margin: 0;
 }
