@@ -2,7 +2,7 @@
 
 /* GENERAL */
 body {
-    font-family: 'Segoe UI', 'Times New Roman', Sans-Serif; /* kept Times, added cleaner fallback */
+    font-family: 'Segoe UI', 'Times New Roman', Sans-Serif;
     background-color: #f0f0f0; /* light gray background */
     margin: 0;
     padding: 0;
@@ -209,6 +209,7 @@ ol {
   height: auto;
   display: block;
   margin: 0 auto 20px auto; /* centers the logo */
+  border: 3px solid red;
 }
 
 /* WHAT WE OFFER + WHY CHOOSE US CARDS */
@@ -259,4 +260,13 @@ ol {
   color: #555;
   font-size: 15px;
   margin: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 15px;
+  border: 3px solid blue;
 }

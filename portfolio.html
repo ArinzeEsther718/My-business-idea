@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <style>
+    body {
+font-family: Arial, sans-serif;
+  background-color: #fff0f5; /* light pink background */
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  background: #ff69b4; /* hot pink */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  color: #c71585; /* dark pink */
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 15px;
+  border: 3px solid #ff69b4;
+}
+
+section {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ol{
+  margin: 2px;
+  text-align: left;
+}
+/* Nav bar for linking */
+nav {
+  background: #ff69b4;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffe4e1;
+}
+nav a:active {
+  color: #fff0f5;
+}
+nav a:focus {
+  color: #fff0f5;
+  background: rgba(255,255,255,0.2);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: 2px solid white;
+  object-fit: cover;
+  object-position: center top;
+}
+/* Projects cards */
+.project {
+  background: #ffe4e1;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border-left: 4px solid #ff69b4;
+}
+.project h3 {
+  color: #c71585;
+  margin-bottom: 5px;
+}
+
+/* CONTACT SECTION */
+.section.alt {
+  background: #ffe4e1; /* light pink like your skills list */
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+.contact-info {
+  margin: 20px 0;
+  line-height: 2;
+}
+
+.contact-info a {
+  color: #c71585; /* dark pink */
+  text-decoration: none;
+  font-weight: bold;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* WHATSAPP BUTTON */
+.btn {
+  display: inline-block;
+  background: #ff69b4; /* hot pink like header */
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #c71585; /* dark pink */
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: #ff69b4;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+  </style>
+  <header id="hero"> 
+  <nav>
+    <img src="logo.png"alt="my logo"class="logo"/>
+    <div class="nav-links">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  	<h1>My Portfolio</h1>
+  	<p>Hi! I'm Esther Arinze.</p>
+  </header>
+  
+  <img src="me.jpg" alt="My picture"class="my-image">
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Port Harcourt based learner currently taking courses to improve my digital skills.</p>
+    <p>I am hardworking, creative and I love learning new things. Also, I am passionate about things related to education.</p>
+  </section>
+  
+  <!-- SECTION 2: SDG -->
+  <section id="sdg">
+    <h2>My SDG Focus</h2>
+    <img src="E_PRINT_04.jpg" alt="SDG 4: Quality Education"/>
+    <p><b>SDG 4: Quality Education</b></p>
+    <p>I chose Quality Education because I believe everyone deserves access to learning. I am passionate about using digital skills to help students learn better and bridge education gaps in my community.</p>
+  </section>
+  
+  <section>
+    <p>Being a libra, I am a charismatic, intelligent, optimistic and social person.</p>
+  </section>
+  
+  <!-- SECTION 3: SKILLS -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ol>
+      <li>Communication skills</li>
+      <li>Leadership skills</li>
+      <li>Critical thinking and problem solving</li>
+      <li>Crocheting</li>
+    </ol>
+  </section>
+
+  <!-- SECTION 4: PROJECTS - NEW -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>1. Business Page Website</h3>
+      <p>Built a responsive business website based on education during this program.</p>
+    </div>
+    <div class="project">
+      <h3>2. Portfolio</h3>
+      <p>Built a portfolio page containing information about me.</p>
+    </div>
+    <div class="project">
+     <h3>3. Crochet Bags for Sale</h3>
+     <p>Started crocheting during holiday and made 5 different bags. I sold 3 to family members and used the money to buy data for my online courses. It taught me patience and business skills.</p>
+   </div>
+  </section>
+  
+  <section><b>Fun-fact:</b> I'm kind of a cat lover.</section>
+
+  <!-- SECTION 5: CONTACT - NEW -->
+<section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Have a question or want to work together? Let's connect!</p>
+      
+      <div class="contact-info">
+        <p><b>Email:</b> <a href="mailto:estherarinze852@gmail.com">estherarinze852@gmail.com</a></p>
+        <p><b>Phone:</b> <a href="tel:+2348079284213">+2348079284213</a></p>
+        <p><b>Location:</b> Port Harcourt, Nigeria</p>
+      </div>
+
+      <a href="https://wa.me/2348079284213" class="btn">Message on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>© Esther 2026</footer>
+</body>
+</html>
